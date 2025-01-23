@@ -1,16 +1,10 @@
 # Encode/Decode PHP & JS
 
-## 1. Run backend 
+## 1. Run docker compose
 
-### Use frankenphp
-[frankenphp](https://frankenphp.dev/) default port is 80
 ```
-frankenphp php-server 
-```
-### Use php cli
-```
-php -S 0.0.0.0:80
+docker compose up -d
 ```
 
 ### Open on browser
-[http://localhost/](http://localhost/)
+[http://localhost:8080/](http://localhost:8080/)
